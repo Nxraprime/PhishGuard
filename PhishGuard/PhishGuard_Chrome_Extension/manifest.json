@@ -1,0 +1,30 @@
+{
+  "manifest_version": 3,
+  "name": "PhishGuard - Real-Time Phishing Protection",
+  "version": "1.0",
+  "description": "Detects and blocks potential phishing websites using real-time checks.",
+  "permissions": [
+    "tabs",
+    "storage",
+    "scripting"
+  ],
+  "host_permissions": [
+    "<all_urls>"
+  ],
+  "background": {
+    "service_worker": "background.js"
+  },
+  "action": {
+    "default_icon": {
+      "16": "icons/icon16.png",
+      "48": "icons/icon48.png",
+      "128": "icons/icon128.png"
+    },
+    "default_title": "PhishGuard"
+  },
+  "icons": {
+    "16": "icons/icon16.png",
+    "48": "icons/icon48.png",
+    "128": "icons/icon128.png"
+  }
+}
